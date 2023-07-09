@@ -1,0 +1,9 @@
+Open the Input Manager by selecting Edit -> Project Settings -> Input Manager from the menu bar.
+Add a new axis by clicking on the "+" button at the bottom of the "Axes" list.
+Set the following properties for the new axis:
+Name: "Horizontal" (or any other name you prefer)
+Type: Joystick Axis
+Axis: X Axis
+Repeat steps 2 and 3 for a new axis named "Vertical" with Axis set to "Y Axis".
+Drag and drop the script onto the player object in your scene.
+Now the player should be able to move using the joystick. You can adjust the moveSpeed value to control how fast the player moves.
